@@ -1,0 +1,18 @@
+
+{
+  "name": "cypress-e2e-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "End-to-end QA automation suite for SauceDemo",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:auth": "cypress run --spec 'cypress/e2e/auth.cy.js'",
+    "cy:inventory": "cypress run --spec 'cypress/e2e/inventory.cy.js'",
+    "cy:cart": "cypress run --spec 'cypress/e2e/cart.cy.js'",
+    "cy:checkout": "cypress run --spec 'cypress/e2e/checkout.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^15.0.0"
+  }
+}

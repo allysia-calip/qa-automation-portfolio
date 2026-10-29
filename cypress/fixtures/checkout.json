@@ -1,0 +1,14 @@
+
+{
+  "customer": {
+    "firstName": "Alex",
+    "lastName": "Tester",
+    "postalCode": "10001"
+  },
+  "product": {
+    "name": "Sauce Labs Backpack",
+    "price": 29.99,
+    "addButton": "add-to-cart-sauce-labs-backpack",
+    "removeButton": "remove-sauce-labs-backpack"
+  }
+}
